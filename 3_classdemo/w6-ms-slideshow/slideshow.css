@@ -97,6 +97,7 @@
 }
 
 /* The dots/bullets/indicators */
+
 .dot {
   cursor: pointer;
   height: 15px;
@@ -120,6 +121,7 @@
   /* padding: 32px; */
   /* padding-left: 86px; */
   /* padding-right: 48px; */
+  
   padding: 32px 48px 32px 86px;
   border-radius: 8px;
   position: relative;
@@ -130,6 +132,7 @@
   -ms-flex-align: center;
   align-items: center;
   gap: 86px;
+  
   /* CONTROLS */
 }
 
