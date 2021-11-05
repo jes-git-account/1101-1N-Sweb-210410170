@@ -54,6 +54,19 @@ ul {
 }
 
 /* SHOWCASE */
+
+.showcase24{
+  width: 100%;
+  height: 19.13rem;
+  background: url('./img/img_mountains_wide.jpg') no-repeat center center/cover;
+  margin-bottom: 3rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  justify-content: flex-end;
+  padding: 50px;
+}
+
 .showcase {
   width: 100%;
   height: 19.13rem;
@@ -88,7 +101,7 @@ ul {
 .showcase2 p {
   width: 400px;
   font-size: 18px;
-  margin-top: 14px;
+  margin:14px 0px 19px 0px;
   line-height: 1.5;
 }
 
@@ -114,20 +127,22 @@ ul {
   opacity: 0.8;
 }
 .showcase2.btn1 {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 .btn1 {
 
   cursor: pointer;
   background: #262626;
   color: #fff;
-  padding: 6px 15px 6px 15px;
+  padding: 10px 15px 10px 15px;
   font-weight: bold;
   font-size: 15px;
+  margin-top: auto;
 }
 
 .btn1:hover {
   opacity: 0.8;
 }
+
 
 /* HOME-CARD-1 */
