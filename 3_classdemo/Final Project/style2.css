@@ -162,7 +162,7 @@ body{
 
 .titulo{
   position: relative;
-  margin:12% auto 0;
+  margin:5% auto 0;
   text-align: center;
   color: transparent;
   font-family: 'Titillium Web';
@@ -170,15 +170,11 @@ body{
   -webkit-background-clip: text;
   animation: waves 5s infinite;
   animation-direction: alternate;
-
-  
 }
 
-
-
 .titulo:before{
-  content:"My parject";
-  text-shadow: 5px 5px 15px #6b6969;
+  content:"COOL WAVES";
+  text-shadow: 5px 5px 15px #282828;
   position:absolute;
   top:0;
   z-index:-1;
