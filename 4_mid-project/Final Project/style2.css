@@ -154,3 +154,38 @@ body
 {
   transform: none;
 }
+
+
+body{
+  background: #000;
+}
+
+.titulo{
+  position: relative;
+  margin:5% auto 0;
+  text-align: center;
+  color: transparent;
+  font-family: 'Titillium Web';
+  font-size:130px;  
+  -webkit-background-clip: text;
+  animation: waves 5s infinite;
+  animation-direction: alternate;
+}
+
+.titulo:before{
+  content:"COOL WAVES";
+  text-shadow: 5px 5px 15px #282828;
+  position:absolute;
+  top:0;
+  z-index:-1;
+}
+
+svg{
+  height: 200px;
+  width: 750px;
+}
+
+@keyframes waves {
+  0%   { background-position: left; }
+  100% { background-position: right; }
+}
