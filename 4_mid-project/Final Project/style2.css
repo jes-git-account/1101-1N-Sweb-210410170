@@ -177,7 +177,7 @@ body{
 
 
 .titulo:before{
-  content:"My parject";
+  content:"My project";
   text-shadow: 5px 5px 15px #6b6969;
   position:absolute;
   top:0;
