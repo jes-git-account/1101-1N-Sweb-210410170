@@ -189,7 +189,3 @@ svg{
   width: 750px;
 }
 
-@keyframes waves {
-  0%   { background-position: left; }
-  100% { background-position: right; }
-}
