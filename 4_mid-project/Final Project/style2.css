@@ -3,12 +3,10 @@ body
 {
   margin: 0;
   padding: 0;
-  
   /* make it look decent enough */
-  background: #232323;
-  color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
-}
+  background: radial-gradient(ellipse at bottom, #101922 90%, #090a0f 100%);
+} 
 
 #menuToggle
 {
@@ -16,9 +14,6 @@ body
   position: relative;
   top: 50px;
   left: 50px;
-  
-  z-index: 1;
-  
   -webkit-user-select: none;
   user-select: none;
 }
@@ -121,12 +116,13 @@ body
  */
 #menu
 {
+  z-index: 1;
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  
+  padding-bottom: 400px;
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -141,7 +137,7 @@ body
 
 #menu li
 {
-    
+  z-index: 1;  
   padding: 10px 0;
   font-size: 22px;
 
@@ -157,17 +153,21 @@ body
 
 
 body{
-  background: #000;
+  z-index: 2;
+  height: 100%;
+  overflow: hidden;
+  
 }
 
 .titulo{
+  z-index: -1;
   position: relative;
   margin:12% auto 0;
   text-align: center;
   color: transparent;
   font-family: 'Titillium Web';
   font-size:130px;  
-  -webkit-background-clip: text;
+  
   animation: waves 5s infinite;
   animation-direction: alternate;
 
@@ -181,7 +181,8 @@ body{
   text-shadow: 5px 5px 15px #6b6969;
   position:absolute;
   top:0;
-  z-index:-1;
+  z-index: -1;
+
 }
 
 svg{
@@ -189,3 +190,39 @@ svg{
   width: 750px;
 }
 
+#stars1 {
+  z-index: 0;
+  width: 2px;
+  height: 2px;
+  background-color: rgb(240, 239, 239);
+  /* minx=1,MAXx=1500;miny=2,MAXy=700 */
+  box-shadow: 1100px 550px rgb(240, 239, 239),244px 300px rgb(240, 239, 239) ,
+  1406px 104px rgb(240, 239, 239),           540px 666px rgb(240, 239, 239) ,
+  1040px 134px rgb(240, 239, 239),          650px 500px rgb(240, 239, 239) ,
+  1000px 150px rgb(240, 239, 239),         222px 130px rgb(240, 239, 239) ,
+  1304px 384px rgb(240, 239, 239),         700px 350px rgb(240, 239, 239) ,
+  1404px 204px rgb(240, 239, 239),         650px 340px rgb(240, 239, 239) ,
+  1504px 210px rgb(240, 239, 239),         670px 354px rgb(240, 239, 239) ,
+  670px 9px rgb(240, 239, 239) , 200px 511px rgb(240, 239, 239) ,
+  1300px 611px rgb(240, 239, 239)  ,600px 200px rgb(240, 239, 239),        
+  249px 667px rgb(240, 239, 239) ,
+  130px 400px rgb(240, 239, 239),          551px 551px rgb(240, 239, 239) ,
+  1231px 349px rgb(240, 239, 239),         441px 430px rgb(240, 239, 239) ,
+  1111px 153px rgb(240, 239, 239),         1007px 450px rgb(240, 239, 239) ,
+  523px 555px rgb(240, 239, 239)
+} 
+
+#stars2 {
+  z-index: 0;
+  width: 4px;
+  height: 4px;
+  
+  /* minx=1,MAXx=1500;miny=2,MAXy=700 */
+  box-shadow: 100px 100px rgb(240, 239, 239),400px 200px rgb(240, 239, 239) ,
+        1437px 3px rgb(240, 239, 239) ,
+  1023px 213px rgb(240, 239, 239),         670px 11px rgb(240, 239, 239),
+  870px 211px rgb(240, 239, 239) , 770px 191px rgb(240, 239, 239) ,
+  899px 311px rgb(240, 239, 239) , 899px 611px rgb(240, 239, 239) 
+} 
+
+ 
