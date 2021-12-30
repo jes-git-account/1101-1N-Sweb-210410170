@@ -1,0 +1,14 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+.l123 img{
+    width: 36.3%;
+    margin: 19px 62.5px 0px 125px;
+    }
+
+.l1234 img{
+    width: 36.3%;
+    margin: 19px 0px 0px 125px;
+}
