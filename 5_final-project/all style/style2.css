@@ -90,7 +90,7 @@ body
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background-color: #090a0f;
 }
 
 /*
@@ -140,6 +140,7 @@ body
   z-index: 1;  
   padding: 10px 0;
   font-size: 22px;
+  font-weight: 600;
 }
 .gray{
   color: #b3b0b0;
@@ -192,7 +193,7 @@ svg{
 }
 
 #stars1 {
-  z-index: 0;
+  z-index: -1;
   width: 2px;
   height: 2px;
   background-color: rgb(240, 239, 239);
@@ -214,7 +215,7 @@ svg{
 } 
 
 #stars2 {
-  z-index: 0;
+  z-index: -1;
   width: 4px;
   height: 4px;
   
