@@ -1,4 +1,10 @@
 
+body {
+  漸層
+  
+  text-align: center;
+}
+
 .house ul{
   
   text-align: right;
@@ -9,11 +15,12 @@
 }
  a {
    font-size: 30px;
-  color: #000;
+  color: white;
 }
 
 
 .section-hero{
+  
   a {
     color: #262626;
     text-decoration: none;
@@ -103,6 +110,9 @@
     max-width: 1000px;
     position: relative;
     margin: auto;
+    background-color: white;
+  border-radius: 10px;
+  
   }
   
   /* Hide the images by default */
@@ -529,18 +539,7 @@
   padding: 0;
   margin: 0;
 }
-body {
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: center;
-}
+
 .container {
   width: 80%;
   margin: 40px auto;
@@ -645,6 +644,7 @@ body {
   }
   
   h2 {
+    text-align: left;
     margin: 0;
     margin-bottom: 25px;
     font-weight: 400;
@@ -663,16 +663,19 @@ body {
     margin-top: 40px;
     opacity: 0.8;
     font-weight: 100;
+    text-align: left;
   }
   
   a {
     color: #fff;
     text-decoration: none;
+    font-size: 20px;
   }
   
   .title {
     margin: 0;
     margin-top: 10px;
+    text-align: left;
   }
   
 
@@ -712,6 +715,7 @@ body {
   }
   .right h1 {
     margin-top: 50px;
+    text-align: left;
   }
   .left.right {
     padding: 15px;
@@ -719,6 +723,7 @@ body {
   
   .education li {
     display: flex;
+    text-align: left;
   }
   .education li ul {
     padding-left: 20px;
@@ -736,7 +741,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
   }
   
   .circle {

@@ -192,39 +192,56 @@ svg{
   width: 750px;
 }
 
+
+
 #stars1 {
   z-index: -1;
   width: 2px;
   height: 2px;
-  background-color: rgb(240, 239, 239);
+  background-color: rgb(212, 211, 211);
+  animation:neon-shine1 2.5s linear infinite;
   /* minx=1,MAXx=1500;miny=2,MAXy=700 */
-  box-shadow: 1100px 550px rgb(240, 239, 239),244px 300px rgb(240, 239, 239) ,
-  1406px 104px rgb(240, 239, 239),           540px 666px rgb(240, 239, 239) ,
-  1040px 134px rgb(240, 239, 239),          650px 500px rgb(240, 239, 239) ,
-  1000px 150px rgb(240, 239, 239),         222px 130px rgb(240, 239, 239) ,
-  1304px 384px rgb(240, 239, 239),         700px 350px rgb(240, 239, 239) ,
-  1404px 204px rgb(240, 239, 239),         650px 340px rgb(240, 239, 239) ,
-  1504px 210px rgb(240, 239, 239),         670px 354px rgb(240, 239, 239) ,
-  670px 9px rgb(240, 239, 239) , 200px 511px rgb(240, 239, 239) ,
-  1300px 611px rgb(240, 239, 239)  ,600px 200px rgb(240, 239, 239),        
+  box-shadow: 1100px 550px rgb(231, 229, 229),244px 300px rgb(240, 239, 239) ,
+  1406px 104px rgb(231, 228, 228),           540px 666px rgb(240, 239, 239) ,
+  1040px 134px rgb(241, 240, 240),          650px 500px rgb(240, 239, 239) ,
+  1000px 150px rgb(238, 236, 236),         222px 130px rgb(231, 231, 231) ,
+  1304px 384px rgb(236, 236, 236),         700px 350px rgb(224, 220, 220) ,
+  1404px 204px rgb(235, 232, 232),         650px 340px rgb(240, 239, 239) ,
+  1504px 210px rgb(235, 231, 231),         670px 354px rgb(230, 227, 227) ,
+  670px 9px rgb(216, 215, 215) , 200px 511px rgb(212, 212, 212) ,
+  1300px 611px rgb(233, 230, 230)  ,600px 200px rgb(236, 233, 233),        
   249px 667px rgb(240, 239, 239) ,
-  130px 400px rgb(240, 239, 239),          551px 551px rgb(240, 239, 239) ,
-  1231px 349px rgb(240, 239, 239),         441px 430px rgb(240, 239, 239) ,
-  1111px 153px rgb(240, 239, 239),         1007px 450px rgb(240, 239, 239) ,
-  523px 555px rgb(240, 239, 239)
+  130px 400px rgb(240, 236, 236),          551px 551px rgb(240, 239, 239) ,
+  1231px 349px rgb(243, 234, 234),         441px 430px rgb(226, 219, 219) ,
+  1111px 153px rgb(240, 236, 236),         1007px 450px rgb(228, 224, 224) ,
+  523px 555px rgb(228, 225, 225)
 } 
 
 #stars2 {
   z-index: -1;
   width: 4px;
   height: 4px;
-  
+  animation:neon-shine 3s linear infinite;
   /* minx=1,MAXx=1500;miny=2,MAXy=700 */
-  box-shadow: 100px 100px rgb(240, 239, 239),400px 200px rgb(240, 239, 239) ,
-        1437px 3px rgb(240, 239, 239) ,
+  box-shadow: 100px 100px rgb(236, 235, 235),400px 200px rgb(243, 240, 240) ,
+        1437px 3px rgb(226, 225, 225) ,
   1023px 213px rgb(240, 239, 239),         670px 11px rgb(240, 239, 239),
-  870px 211px rgb(240, 239, 239) , 770px 191px rgb(240, 239, 239) ,
-  899px 311px rgb(240, 239, 239) , 899px 611px rgb(240, 239, 239) 
-} 
+  870px 211px rgb(241, 239, 239) , 770px 191px rgb(236, 233, 233) ,
+  899px 311px rgb(233, 231, 231) , 899px 611px rgb(224, 222, 222) 
+
+}
+@keyframes neon-shine{
+  0%{opacity:1;}
+  99%{opacity:0.1;}
+  100%{
+  color:#fffdfd;}
+}  
+@keyframes neon-shine1{
+  0%{opacity:0;}
+  80%{opacity:1;}
+  100%{
+  color:#fffbfb;}
+
+}  
 
  
