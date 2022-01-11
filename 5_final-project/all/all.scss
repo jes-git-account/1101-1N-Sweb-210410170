@@ -1,21 +1,35 @@
 
 body {
-  漸層
-  
   text-align: center;
+  background: linear-gradient(rgb(64, 170, 64) ,rgb(139, 211, 139) ,white );
+  
 }
 
 .house ul{
   
-  text-align: right;
+  text-align: center;
   list-style: none;
-  padding: 0 50px;
-  
+  padding: 10px 50px;
           
 }
+
+ul li{
+  display: inline;
+  
+}
+ul li a:hover{
+  background: rgb(253, 252, 252);
+  color: rgb(88, 86, 86);
+  border-radius: 10px;
+}
  a {
-   font-size: 30px;
+  
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 50px;
+  font-size: 25px;
   color: white;
+
 }
 
 
@@ -110,6 +124,7 @@ body {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    padding: 1px;
     background-color: white;
   border-radius: 10px;
   
@@ -198,7 +213,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 50px 10px 10px 616px;
+    margin: 29px 10px 10px 616px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -265,7 +280,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 50px 10px 10px 552px;
+    margin: 29px 10px 10px 552px;
   
   
     -webkit-box-orient: vertical;
@@ -328,12 +343,11 @@ body {
     height: 370px;
     border: 30rem;
     background: url("./img/3.jpg") no-repeat center center/cover;
-    margin-bottom: 20px;
-    margin-right: 235px;
+ 
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 50px 10px 10px 552px;
+    margin: 29px 10px 10px 552px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -400,7 +414,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 50px 10px 10px 552px;
+    margin: 29px 10px 10px 552px;
   
   
     -webkit-box-orient: vertical;
@@ -469,7 +483,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 50px 10px 10px 552px;
+    margin: 29px 10px 10px 552px;
   
   
     -webkit-box-orient: vertical;
@@ -614,11 +628,12 @@ body {
 }
 
 .section-resume{
-  margin: -50px 300px;
+  margin: 0px 300px ;
   body {
     text-align: center;
     background-position: 100%;
     padding: 50px;
+    margin-bottom: 1px;
     display: flex;
     justify-content: center;
     font-size: 16px;
@@ -642,7 +657,6 @@ body {
     border: none;
     border-bottom: solid 2px #257aa6;
   }
-  
   h2 {
     text-align: left;
     margin: 0;
@@ -697,12 +711,13 @@ body {
     height: 180px;
     margin: 0;
     margin-top: 50px;
-    margin-left: 25px;
+    
   }
   
   .left {
     flex: 5;
     padding-left: 50px;
+    padding-right: 40px;
     background-color: #257aa6;
     color: #fff;
   }
@@ -831,5 +846,16 @@ body {
   }
 }
 
-
+.house{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: floralwhite;
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0 0 0 0.03);
+}
 
